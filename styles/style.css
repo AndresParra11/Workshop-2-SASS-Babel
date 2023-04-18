@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  color: hsl(0, 0%, 8%);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+.header__img {
+  display: flex;
+}
+.header__select {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header__select .submenu {
+  display: none;
+}
+.header__select img {
+  margin-right: 10px;
+}
+.header__select ul {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.header__select li {
+  list-style: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.header__select .gray {
+  color: hsl(0, 0%, 41%);
+  font-weight: 200;
+}
+.header__login {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  float: left;
+  font-weight: 700;
+  justify-content: end;
+}
+.header__login ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.header__login li {
+  list-style: none;
+  cursor: pointer;
+}
+.header__login button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+}
+.header a {
+  text-decoration: none;
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
