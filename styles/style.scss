@@ -54,7 +54,7 @@ body {
         flex-direction: row;
         gap: 20px;
         position: relative;
-        float: left;
+        left: 70%;
         font-weight: 700;
         justify-content: end;
         
@@ -62,21 +62,25 @@ body {
             display: flex;
             flex-direction: row;
             gap: 30px;
+            align-items: center;
+            li{
+                list-style: none;
+                cursor: pointer;
+                
+
+                button{
+                    padding: 10px 15px 10px 15px;
+                    border-radius: 10px;
+                    background-color: $AlmostWhite;
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-family: $fontfamily;
+                }
+            }
             
         }
-        li{
-            list-style: none;
-            cursor: pointer;
-            
-        }
-        button{
-            padding: 10px 15px 10px 15px;
-            border-radius: 10px;
-            background-color: $AlmostWhite;
-            cursor: pointer;
-            font-weight: 700;
-            font-family: $fontfamily;
-        }
+        
+        
     }
     a{
         text-decoration: none;

@@ -45,7 +45,7 @@ body {
   flex-direction: row;
   gap: 20px;
   position: relative;
-  float: left;
+  left: 70%;
   font-weight: 700;
   justify-content: end;
 }
@@ -53,12 +53,13 @@ body {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  align-items: center;
 }
-.header__login li {
+.header__login ul li {
   list-style: none;
   cursor: pointer;
 }
-.header__login button {
+.header__login ul li button {
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 98%);
