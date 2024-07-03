@@ -21,4 +21,5 @@ Se realiza una landing page que permite la implementación de babel y SASS. Tamb
 ## Authors
 
 - [@AndresParra11](https://github.com/AndresParra11)
+- -[@yesid10](https://github.com/yesid10)
 
